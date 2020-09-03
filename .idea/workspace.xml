@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31900dcd-b9f8-4913-ac9e-dc89b0c58109" name="Default Changelist" comment="" />
+    <list default="true" id="31900dcd-b9f8-4913-ac9e-dc89b0c58109" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gqh8iU7pErZowRgYWY9aAGOopV" />
   <component name="ProjectViewState">
@@ -18,8 +24,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -31,6 +43,14 @@
       <option name="presentableId" value="Default" />
       <updated>1598847873855</updated>
       <workItem from="1598847874984" duration="195000" />
+      <workItem from="1598949156467" duration="43000" />
+      <workItem from="1599001261523" duration="73000" />
+      <workItem from="1599007833914" duration="927000" />
+      <workItem from="1599024401250" duration="595000" />
+      <workItem from="1599079787392" duration="295000" />
+      <workItem from="1599111063909" duration="2403000" />
+      <workItem from="1599169654809" duration="1761000" />
+      <workItem from="1599171463333" duration="2605000" />
     </task>
     <servers />
   </component>
@@ -39,5 +59,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1250" y="343" key="SettingsEditor" timestamp="1599008076014">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1250" y="343" key="SettingsEditor/0.0.3440.1400/384.-1440.2560.1440@0.0.3440.1400" timestamp="1599008076014" />
+    <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1599174369105">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599174369105" />
   </component>
 </project>
