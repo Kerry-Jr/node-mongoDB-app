@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="31900dcd-b9f8-4913-ac9e-dc89b0c58109" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/db/mongoose.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gqh8iU7pErZowRgYWY9aAGOopV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -31,7 +55,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,7 +74,8 @@
       <workItem from="1599079787392" duration="295000" />
       <workItem from="1599111063909" duration="2403000" />
       <workItem from="1599169654809" duration="1761000" />
-      <workItem from="1599171463333" duration="2605000" />
+      <workItem from="1599171463333" duration="2907000" />
+      <workItem from="1599191812313" duration="3146000" />
     </task>
     <servers />
   </component>
@@ -60,11 +85,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1250" y="343" key="SettingsEditor" timestamp="1599008076014">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="785" y="321" width="1591" height="902" key="SettingsEditor" timestamp="1599192467055">
+      <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1250" y="343" key="SettingsEditor/0.0.3440.1400/384.-1440.2560.1440@0.0.3440.1400" timestamp="1599008076014" />
+    <state x="785" y="321" width="1591" height="902" key="SettingsEditor/0.0.3440.1410/3440.0.2560.1440@0.0.3440.1410" timestamp="1599192467055" />
     <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1599174369105">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>

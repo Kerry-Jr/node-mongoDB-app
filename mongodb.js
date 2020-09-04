@@ -21,19 +21,44 @@ MongoClient.connect(connectionURL, {useNewUrlParser: true, useUnifiedTopology: t
   }
   const db = client.db(databaseName)
 
+  db.collection('tasks').deleteOne({
+    description : "Give the cats some belly rubs!"
+  }).then((result) => {
+    console.log(result)
+  }).catch((error) => {
+    console.log(error)
+  })
 
-db.collection('tasks').updateMany({
-  completed: false
-}, {
-  $set: {
-    completed: true
-  }
-}).then((result) => {
-  console.log(result.modifiedCount)
-}).catch((error) => {
-  console.log(error)
-})
 
+
+
+
+// deleted (2) records from mongo database by anyone with the age of 38
+// db.collection('users').deleteMany({
+//   age: 38
+// }).then((result) => {
+//   console.log(result)
+// }).catch((error) => {
+//   console.log("I'm the error you are looking for!", error)
+// })
+
+
+
+
+
+
+// db.collection('tasks').updateMany({
+//   completed: false
+// }, {
+//   $set: {
+//     completed: true
+//   }
+// }).then((result) => {
+//   console.log(result.modifiedCount)
+// }).catch((error) => {
+//   console.log(error)
+// })
+//
 
 
  // db.collection('users').updateOne({
