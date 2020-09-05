@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31900dcd-b9f8-4913-ac9e-dc89b0c58109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db/mongoose.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/mongoose.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,9 @@
       <workItem from="1599111063909" duration="2403000" />
       <workItem from="1599169654809" duration="1761000" />
       <workItem from="1599171463333" duration="2907000" />
-      <workItem from="1599191812313" duration="3146000" />
+      <workItem from="1599191812313" duration="4279000" />
+      <workItem from="1599257761886" duration="593000" />
+      <workItem from="1599275815158" duration="681000" />
     </task>
     <servers />
   </component>
@@ -95,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="785" y="321" width="1591" height="902" key="SettingsEditor" timestamp="1599192467055">
