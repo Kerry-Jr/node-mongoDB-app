@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31900dcd-b9f8-4913-ac9e-dc89b0c58109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/promise-chaining-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/promise-chaining.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routers/task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routers/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/mongoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -89,7 +92,14 @@
       <workItem from="1599342526501" duration="256000" />
       <workItem from="1599342789912" duration="3680000" />
       <workItem from="1599427763524" duration="2579000" />
-      <workItem from="1599430367240" duration="1243000" />
+      <workItem from="1599430367240" duration="1283000" />
+      <workItem from="1599433608820" duration="938000" />
+      <workItem from="1599452629866" duration="4741000" />
+      <workItem from="1599504903028" duration="2560000" />
+      <workItem from="1599510614832" duration="5549000" />
+      <workItem from="1599539776108" duration="10000" />
+      <workItem from="1599539793029" duration="4040000" />
+      <workItem from="1599621345515" duration="349000" />
     </task>
     <servers />
   </component>
@@ -112,11 +122,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="785" y="321" width="1591" height="902" key="SettingsEditor" timestamp="1599342778696">
-      <screen x="0" y="0" width="3440" height="1410" />
+    <state x="785" y="319" width="1591" height="902" key="SettingsEditor" timestamp="1599511728357">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="785" y="319" key="SettingsEditor/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599511728357" />
     <state x="1250" y="343" key="SettingsEditor/0.0.3440.1400/384.-1440.2560.1440@0.0.3440.1400" timestamp="1599008076014" />
     <state x="785" y="321" width="1591" height="902" key="SettingsEditor/0.0.3440.1410/3440.0.2560.1440@0.0.3440.1410" timestamp="1599342778696" />
+    <state x="1469" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599511639487">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1469" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599511639487" />
     <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1599174369105">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
