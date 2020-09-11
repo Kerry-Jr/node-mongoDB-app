@@ -42,31 +42,33 @@ const userSchema = new mongoose.Schema({
     }
   },
   tokens: [{
-   token: {
-     type: String,
-     required: true
-   }
-
+    token: {
+      type: String,
+      required: true
+    }
   }]
 })
 
-//our methods --look below--- are available on the instances (example for instance - the user model, task model)
+userSchema.methods.toJSON = function () {
+  const user = this
+  const userObject = user.toObject()
 
+  delete userObject.password
+  delete userObject.tokens
+
+  return userObject
+}
 
 userSchema.methods.generateAuthToken = async function () {
   const user = this
-  const token = jwt.sign({_id: user._id.toString()}, 'thisismynewcourse')
+  const token = jwt.sign({ _id: user._id.toString() }, 'thisismynewcourse')
 
-   user.tokens = user.tokens.concat({ token })
-
-  await user.save();
+  user.tokens = user.tokens.concat({ token })
+  await user.save()
 
   return token
 }
 
-
-
-//statics methods are accessible on the model sometimes called model methods
 userSchema.statics.findByCredentials = async (email, password) => {
   const user = await User.findOne({ email })
 

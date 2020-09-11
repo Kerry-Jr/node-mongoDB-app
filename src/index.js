@@ -21,9 +21,9 @@ const port = process.env.PORT || 3000
 // })
 
 
-app.use((req, res, next) => {
-  res.status(503).send('Sorry site is down for bug zapping and upgrading rocket boosters ')
-})
+// app.use((req, res, next) => {
+//   res.status(503).send('Sorry site is down for bug zapping and upgrading rocket boosters ')
+// })
 
 
 app.use(express.json())
@@ -37,44 +37,22 @@ app.listen(port, () => {
 
 
 
+// const jwt = require('jsonwebtoken')
 
+// const myFunction = async () => {
+//
+// const token = jwt.sign({ _id: '123abc' }, 'thisismynewcourse', {
+//   expiresIn: '7 days'
+// })
+//
+// console.log(token)
+//
+// const data =  jwt.verify(token, 'thisismynewcourse')
+//
+// console.log(data)
 
-
-const jwt = require('jsonwebtoken')
-
-
-
-const myFunction = async () => {
-
-const token = jwt.sign({ _id: '123abc' }, 'thisismynewcourse', {
-  expiresIn: '7 days'
-})
-
-console.log(token)
-
-const data =  jwt.verify(token, 'thisismynewcourse')
-
-console.log(data)
-
-}
-
-myFunction()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// myFunction()
+//-------------------------------------------------------------------------------------
 // this was the example for use in the myFunction() for bcrypt password hashing
 // const password = 'Red12345!'
 // const hashedPassword = await bcrypt.hash(password,8)
