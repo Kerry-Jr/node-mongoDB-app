@@ -36,6 +36,24 @@ app.listen(port, () => {
 })
 
 
+// example async for this demo
+
+const main = async () => {
+
+// this code will populate the owner of the task. This is pretty COOL!--- ALso check mongoose.js docs or explanation
+//   const task = await Task.findById('5f5bcb11b272b74e30ed3ec3')
+//   await task.populate('owner').execPopulate()
+// below example is finding the task by the owner ID---
+
+  const user = await User.findById('5f5c525f85189542ac719958')
+  await user.populate('tasks').execPopulate()
+  console.log(user.tasks)
+
+
+}
+
+main()
+
 
 // const jwt = require('jsonwebtoken')
 

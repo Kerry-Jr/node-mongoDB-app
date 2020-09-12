@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31900dcd-b9f8-4913-ac9e-dc89b0c58109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middleware/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/prettierJS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +62,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Program Files\JetBrains\WebStorm 2020.1.4\plugins\prettierJS" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -107,7 +110,10 @@
       <workItem from="1599762604586" duration="608000" />
       <workItem from="1599779621134" duration="937000" />
       <workItem from="1599783654451" duration="2176000" />
-      <workItem from="1599792934488" duration="3942000" />
+      <workItem from="1599792934488" duration="4317000" />
+      <workItem from="1599848436695" duration="8000" />
+      <workItem from="1599848450954" duration="5375000" />
+      <workItem from="1599885116701" duration="3246000" />
     </task>
     <servers />
   </component>
@@ -130,24 +136,28 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1383" y="480" key="#Notifications" timestamp="1599714197140">
+    <state x="1383" y="480" key="#Notifications" timestamp="1599854198276">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1383" y="480" key="#Notifications/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599714197140" />
-    <state x="785" y="319" width="1591" height="902" key="SettingsEditor" timestamp="1599713689684">
+    <state x="1383" y="480" key="#Notifications/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599854198276" />
+    <state x="1081" y="455" key="FileChooserDialogImpl" timestamp="1599854084862">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="785" y="319" key="SettingsEditor/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599713689684" />
+    <state x="1081" y="455" key="FileChooserDialogImpl/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599854084862" />
+    <state x="785" y="319" width="1591" height="902" key="SettingsEditor" timestamp="1599854107550">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="785" y="319" key="SettingsEditor/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599854107550" />
     <state x="1250" y="343" key="SettingsEditor/0.0.3440.1400/384.-1440.2560.1440@0.0.3440.1400" timestamp="1599008076014" />
     <state x="785" y="321" width="1591" height="902" key="SettingsEditor/0.0.3440.1410/3440.0.2560.1440@0.0.3440.1410" timestamp="1599342778696" />
     <state x="1469" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599511639487">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1469" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599511639487" />
-    <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1599174369105">
+    <state x="1383" y="315" width="840" height="678" key="search.everywhere.popup" timestamp="1599853807601">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599174369105" />
+    <state x="1383" y="315" width="840" height="678" key="search.everywhere.popup/0.0.3440.1400/3440.0.2560.1440@0.0.3440.1400" timestamp="1599853807601" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
