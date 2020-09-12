@@ -45,14 +45,14 @@ const main = async () => {
 //   await task.populate('owner').execPopulate()
 // below example is finding the task by the owner ID---
 
-  const user = await User.findById('5f5c525f85189542ac719958')
+  const user = await User.findById()
   await user.populate('tasks').execPopulate()
   console.log(user.tasks)
 
 
 }
 
-main()
+// main()
 
 
 // const jwt = require('jsonwebtoken')
