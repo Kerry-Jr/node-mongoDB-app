@@ -11,19 +11,14 @@ const app = express()
 const port = process.env.PORT || 3000
 
 
-//express middleware
-// app.use((req, res, next) => {
-// if(req.method === 'GET') {
-//   res.send('GET requests are disabled')
-// }else {
-//   next()
-// }
-// })
+const multer = require('multer')
+const upload = multer({
+  dest: 'images'
+})
 
-
-// app.use((req, res, next) => {
-//   res.status(503).send('Sorry site is down for bug zapping and upgrading rocket boosters ')
-// })
+app.post('/upload', upload.single('upload'), (req, res) => {
+  res.send()
+})
 
 
 app.use(express.json())
@@ -35,22 +30,22 @@ app.listen(port, () => {
   console.log('Server is up on port ' + port)
 })
 
-
+//---------------------------------------------------------------------------------------------------------------------------examples below --------------------------------------------------------------------------------------not for production, tests only
 // example async for this demo
 
-const main = async () => {
+// const main = async () => {
 
 // this code will populate the owner of the task. This is pretty COOL!--- ALso check mongoose.js docs or explanation
 //   const task = await Task.findById('5f5bcb11b272b74e30ed3ec3')
 //   await task.populate('owner').execPopulate()
 // below example is finding the task by the owner ID---
 
-  const user = await User.findById()
-  await user.populate('tasks').execPopulate()
-  console.log(user.tasks)
+//   const user = await User.findById()
+//   await user.populate('tasks').execPopulate()
+//   console.log(user.tasks)
 
 
-}
+// }
 
 // main()
 
@@ -80,3 +75,17 @@ const main = async () => {
 //
 // const isMatch = await bcrypt.compare('Red12345!', hashedPassword)
 // console.log(isMatch)
+// below is middleware example
+////express middleware
+// app.use((req, res, next) => {
+// if(req.method === 'GET') {
+//   res.send('GET requests are disabled')
+// }else {
+//   next()
+// }
+// })
+
+
+// app.use((req, res, next) => {
+//   res.status(503).send('Sorry site is down for bug zapping and upgrading rocket boosters ')
+// })
