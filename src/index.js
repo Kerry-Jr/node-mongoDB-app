@@ -30,8 +30,13 @@ const upload = multer({
   }
 })
 
+
+
+// added function on route handler call. needs to have call signature set of args it expects thats what lets express know its the function setup for uncaught error lets express know that multer threw an error
 app.post('/upload', upload.single('upload'), (req, res) => {
   res.send()
+}, (error, req, res, next) => {
+  res.status(400).send({ error: error.message })
 })
 
 
